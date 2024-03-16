@@ -10,5 +10,10 @@ public class MainMenu : MonoBehaviour
     // level 1 to load when this func runs
     public void PlayGame(){
         SceneManager.LoadSceneAsync(1);
+    }  
+
+    // quit game
+    public void QuiteGame(){
+        Application.Quit();
     }
 }
